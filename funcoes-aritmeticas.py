@@ -19,4 +19,6 @@ def calcular_fatorial(numero):
     pass
 
 def gerar_tabuada(numero):
-    pass
+    print("Aqui está a tábuada de",numero)
+    for i in range(10):
+        print(f'{i} x {numero} é {i*numero}')
