@@ -1,5 +1,16 @@
+#Retornar a soma de dois números.
 def somar(a, b):
-    pass
+   resultado = a + b
+   return resultado
+
+#Teste com entradas diferentes:
+print(somar(2, 3))     
+print(somar(-2, 5))
+print(somar(0, 0))
+print(somar(3, 10))
+print(somar(-1.5, 0.5))
+print(somar(1.5, 2.5))
+
 def subtrair(a, b):
     pass
 
