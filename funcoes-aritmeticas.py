@@ -21,7 +21,7 @@ def calcular_fatorial(numero):
 def gerar_tabuada(numero):
     tabuada = f"Aqui está a tábuada de {numero}\n"
     for i in range(1, 11):
-        tabuada += f'{i} x {numero} é {i*numero}\n'       
+        tabuada += f'{i} x {numero} é {i*numero}\n'
     return tabuada
 
 print(gerar_tabuada(2))
