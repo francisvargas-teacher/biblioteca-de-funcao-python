@@ -19,8 +19,22 @@ def multiplicar(a, b):
 
 def dividir(a, b):
     pass
+
 def eh_par(numero):
-    pass
+    if numero % 2 == 0:
+        return True
+    else: 
+        return False
+    
+#Testes se o número é par:
+print(eh_par(2))
+print(eh_par(-2))
+print(eh_par(0))
+print(eh_par(5))
+print(eh_par(3))
+print(eh_par(21))
+print(eh_par(4))
+
 def calcular_media(numeros):
     pass
 def maior_valor(numeros):
